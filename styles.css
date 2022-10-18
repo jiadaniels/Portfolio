@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background:url(./tumblr_nu2rvuItT51rdph5fo1_540.gif) no-repeat center fixed;
+    background-size: cover;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 2px 200px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    animation: blinker 15s linear infinite;
+    align-items: left;
+}
+
+@keyframes blinker{
+    60%{
+        opacity: 0;
+    }
+}
+
+li{
+    display: inline;
+}
+.nav a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 25px;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(109, 105, 109);
+    color: black;
+    padding: 25px 50px;
+}
+
+.nav a:hover{
+    background-color: rgb(109, 105, 109);
+    color: blueviolet;
+}
+
+.head{
+    background: lightblue;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 25px 300px;
+}
+
+.social a:hover{
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

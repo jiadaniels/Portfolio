@@ -1,0 +1,139 @@
+body{
+    background: url(./creative-flat-lay-design-workspace-desk-with-laptop-alarm-clock-blank-notebook-smartphone-stationery-with-copy-space-background_1150-45600.webp) no-repeat center fixed;
+}
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+.submit-btn{
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: blueviolet;
+    border: 2px solid var --primary-color;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: transition;
+}
+
+.submit-btn:hover{
+    background-color: violet;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+
+}
+
+#name{
+    width: 150px;
+    padding: 10px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+}
+
+#email{
+    width: 200px;
+    padding: 10px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+}
+
+#message{
+    width: 300px;
+    padding: 10px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(121, 121, 247);
+    border-radius: 4px;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(121, 121, 247);
+    border-radius: 4px;
+  }
+
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 25px 230px;
+    text-align: center;
+}
+
+.contact-info a{
+    float: right;
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 0px 25px;
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 2px 200px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    animation: blinker 7s linear infinite;
+    align-items: left;
+    margin:0;
+}
+
+@keyframes blinker{
+    60%{
+        opacity: 1;
+    }
+}
+
+li{
+    display: inline;
+}
+.nav a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 25px;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(109, 105, 109);
+    color: black;
+    padding: 25px 50px;
+}
+
+.nav a:hover{
+    background-color: rgb(109, 105, 109);
+    color: blueviolet;
+}
+
+.head{
+    background: transparent;
+}
+
+h1{
+    text-align: center;
+}
