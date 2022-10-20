@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     background: url(./creative-flat-lay-design-workspace-desk-with-laptop-alarm-clock-blank-notebook-smartphone-stationery-with-copy-space-background_1150-45600.webp) no-repeat center fixed;
 }
 *, *:before, *:after{
@@ -127,7 +128,7 @@ li{
 
 .nav a:hover{
     background-color: rgb(109, 105, 109);
-    color: blueviolet;
+    color: rgb(84, 24, 140);
 }
 
 .head{
