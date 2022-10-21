@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background: url(./simple-background-backgrounds-passion-simple-1-5c9b95c5218ea.png) no-repeat center fixed;
 }
 
 li{
@@ -64,4 +65,22 @@ h1{
     border: 15px violet;
     padding: 50px;
     margin: 20px;
+}
+
+.box2{
+    background-color: aliceblue;
+    width: 300px;
+    border: 15px violet;
+    padding: 50px;
+    margin: 20px;
+}
+
+li{
+    display: inline;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 50px;
+    font-size: 35px;
 }
