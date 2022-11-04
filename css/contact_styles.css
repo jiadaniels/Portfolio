@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: url(./creative-flat-lay-design-workspace-desk-with-laptop-alarm-clock-blank-notebook-smartphone-stationery-with-copy-space-background_1150-45600.webp) no-repeat center fixed;
+    background-image: url(./images/creative-flat-lay-design-workspace-desk-with-laptop-alarm-clock-blank-notebook-smartphone-stationery-with-copy-space-background_1150-45600.webp);
 }
 *, *:before, *:after{
     box-sizing: border-box;
@@ -138,3 +138,4 @@ li{
 h1{
     text-align: center;
 }
+    

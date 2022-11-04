@@ -1,23 +1,27 @@
 body{
     margin: 0;
-    background:url(./tumblr_nu2rvuItT51rdph5fo1_540.gif) no-repeat center fixed;
-    background-size: cover;
+    background: url(./images/simple-background-backgrounds-passion-simple-1-5c9b95c5218ea.png) no-repeat center fixed;
+}
+
+li{
+    display: inline;
 }
 
 .head{
     display: flex;
     justify-content: space-between;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     padding: 2px 200px;
     font-size: 30px;
     font-family:'Times New Roman', Times, serif;
-    animation: blinker 15s linear infinite;
+    animation: blinker 7s linear infinite;
     align-items: left;
+    margin:0;
 }
 
 @keyframes blinker{
     60%{
-        opacity: 0;
+        opacity: 1;
     }
 }
 
@@ -47,22 +51,36 @@ li{
 }
 
 .head{
-    background: lightblue;
-}
-
-.social{
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    padding: 25px 300px;
-}
-
-.social a:hover{
-    color: white;
-
+    background: transparent;
 }
 
 h1{
-    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.box1{
+    background-color: aliceblue;
+    width: 300px;
+    border: 15px violet;
+    padding: 50px;
+    margin: 20px;
+}
+
+.box2{
+    background-color: aliceblue;
+    width: 300px;
+    border: 15px violet;
+    padding: 50px;
+    margin: 20px;
+}
+
+li{
+    display: inline;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 50px;
+    font-size: 35px;
 }
